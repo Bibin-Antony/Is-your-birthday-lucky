@@ -1,9 +1,43 @@
 *{
-
+    padding: 0px;
+    margin: 0px;
+    background-color: wheat;
 }
 
 .container{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    padding-top: 25%;
+    margin: auto;
     width: 50vw;
+}
+label{
+    padding: 20px;
+    font-size: 0.8rem;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+}
+#date-of-birth{
+    padding: 10px;
+}
+#lucky-number:hover{
+    background-color: black;
+    color: wheat;
+}
+
+#lucky-number{
+    padding: 10px;
+}
+#check-button{
+    margin: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#check-button:hover{
+    color: wheat;
+    font-size: 0.8rem;
+    background-color: black;
 }
