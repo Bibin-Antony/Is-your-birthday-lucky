@@ -37,6 +37,7 @@ label{
 }
 
 #check-button:hover{
+    cursor: pointer;
     color: wheat;
     font-size: 0.8rem;
     background-color: black;
